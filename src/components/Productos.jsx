@@ -13,9 +13,10 @@ export function Productos() {
         </h2>
 
         <div class="items__container container grid">
-          {dataProductos.map((item, index) => {
-            return <ItemsProductos item={item} key={index} />;
-          })}
+        {productos.map((item, index) => (
+  <ItemsProductos key={index} item={{ ...item, id: index + 1 }} />
+))}
+
         </div>
       </section>
     </Container>

@@ -25,39 +25,50 @@ export const datacategorias = [
 ];
 export const dataProductos = [
   {
+    id: 14, // 🔹 Agregamos un ID único
     img: img1,
+    customImg: "/assets/img/nueva-imagen14.png", // 🔹 Nueva imagen para ID 14
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
   {
+    id: 17, // 🔹 Agregamos un ID único
     img: img2,
+    customImg: "/assets/img/nueva-imagen17.png", // 🔹 Nueva imagen para ID 17
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
   {
+    id: 18,
     img: img3,
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
   {
+    id: 19,
     img: img4,
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
   {
+    id: 20,
     img: img5,
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
   {
+    id: 21,
     img: img3,
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
 ];
+
+
+

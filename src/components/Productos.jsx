@@ -1,27 +1,30 @@
 import styled from "styled-components";
-import { dataProductos } from "../data/DataEstatica";
+import { dataProductos } from "../data/DataEstatica"; // 🔹 Importamos la lista de productos
 import { ItemsProductos } from "../components/ItemsProductos";
+
 export function Productos() {
   return (
     <Container>
-      <section class="items section" id="items">
-        <div class="shape__big"></div>
+      <section className="items section" id="items">
+        <div className="shape__big"></div>
 
-        <h2 class="section__title">
-        Selecciona tu <br />
-        artículo perdido
+        <h2 className="section__title">
+          Selecciona tu <br />
+          artículo perdido
         </h2>
 
-        <div class="items__container container grid">
-        {productos.map((item, index) => (
-  <ItemsProductos key={index} item={{ ...item, id: index + 1 }} />
-))}
-
+        <div className="items__container container grid">
+          {/* 🔹 Usamos dataProductos en lugar de productos */}
+          {dataProductos.map((item, index) => (
+            <ItemsProductos key={index} item={{ ...item, id: index + 1 }} />
+          ))}
         </div>
       </section>
     </Container>
   );
 }
+
+// 🔹 Estilos (sin cambios)
 const Container = styled.div`
   .items {
     position: relative;

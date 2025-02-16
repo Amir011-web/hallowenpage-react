@@ -160,6 +160,3 @@ const Container = styled.div`
     }
   }
 `;
-
-
-

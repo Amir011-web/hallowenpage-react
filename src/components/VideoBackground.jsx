@@ -1,6 +1,7 @@
+
 import React from "react";
-import videoSrc from "../assets/img/mi-video.mp4"; // Importa el video desde src
-import "../index.css"; // Asegúrate de que los estilos están importados
+import "../index.css"; // Importa los estilos del video
+import videoSrc from "../assets/img/mi-video.mp4"; // Ajusta la ruta de tu video
 
 const VideoBackground = () => {
   return (

@@ -4,8 +4,6 @@ import img2 from "../assets/img/pngwing.com (50).png";
 import img3 from "../assets/img/pngwing.com (57).png";
 import img4 from "../assets/img/pngwing.com (59).png";
 import img5 from "../assets/img/pngwing.com (50).png";
-import img6 from "../assets/img/pngwing.com (50).png";
-
 import { ItemsCategorias } from "../components/ItemsCategorias";
 import { datacategorias } from "../data/DataEstatica";
 export function Categorias() {
@@ -43,7 +41,7 @@ const Container = styled.div`
       position: relative;
       background-color: var(--container-color);
       border-radius: 2rem;
-      padding: 4.5rem 2.25rem 2rem;
+      padding: 6 rem 2.25rem 2rem;
       box-shadow: 0 4px 16px hsla(22, 10%, 2%, 0.3);
       text-align: center;
       transition: background 0.3s;
@@ -60,12 +58,13 @@ const Container = styled.div`
       top: -3.5rem;
       transition: transform 0.3s;
     }
-    &__title {
-      font-size: var(--h3-font-size);
-      font-weight: var(--font-semi-bold);
-      color: var(--first-color);
-      margin-bottom: 0.5rem;
-    }
+   &__title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+  color: var(--first-color);
+  margin-bottom: 2.5rem;
+  margin-top: 6rem; /* ✅ Ahora es válido */
+}
     &__description {
       font-size: var(--small-font-size);
     }

@@ -27,7 +27,7 @@ export function Header() {
         <nav class="nav container">
           <a href="#" class="nav__logo">
             <img src={img1} alt="logo image" />
-            Halloween
+            RENTA✦SIO
           </a>
 
           <div
@@ -37,7 +37,7 @@ export function Header() {
             <ul class="nav__list" onClick={() => setState(!state)}>
               <li class="nav__item">
                 <a href="#home" class="nav__link active-link">
-                  Home
+                  Regresar
                 </a>
               </li>
               <li class="nav__item">
@@ -47,12 +47,12 @@ export function Header() {
               </li>
               <li class="nav__item">
                 <a href="#items" class="nav__link">
-                  Productos
+                  Tienda
                 </a>
               </li>
               <li class="nav__item">
                 <a href="#party" class="nav__link">
-                  Fiesta
+                  Contactanos
                 </a>
               </li>
             </ul>
@@ -143,7 +143,7 @@ const Container = styled.div`
     }
     &__link {
       color: var(--white-color);
-      font-family: var(--second-font);
+       font-family: 'Orbitron', sans-serif;
       transition: color 0.4s;
 
       &:hover {

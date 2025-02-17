@@ -9,13 +9,12 @@ export function About() {
           <div class="about__container container grid">
             <div class="about__data">
               <h2 class="section__title">
-              Acerca de La noche <br />
-              del terror
+             DOCUMENTOS EXTRAS
 
               </h2>
 
               <p class="about__description">
-              Halloween se celebra cada 31 de octubre por la noche, camina por la ciudad con tus amigos y pide dulces, disfruta de esta celebración bajo la luna llena.
+              Algunas empresas solicitan por precaución mas documentos, nuestro trabajo es garantizar seguridad a la flota y al chofer formando una confianza mutua.
               </p>
 
               <a href="#" class="button">

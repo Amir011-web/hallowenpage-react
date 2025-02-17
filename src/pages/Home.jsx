@@ -54,7 +54,7 @@ const Container = styled.div`
 
     &__title {
       font-size: var(--h1-font-size);
-      font-family: var(--second-font);
+      font-family: 'Orbitron', sans-serif;
       font-weight: initial;
       line-height: 130%;
       color: var(--first-color);

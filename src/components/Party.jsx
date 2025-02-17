@@ -7,16 +7,16 @@ export function Party() {
           <div class="party__container container grid">
             <div class="party__data">
               <h2 class="section__title">
-                Halloween <br />
-                Fiesta de 31 octubre
+                INFRACCIONES <br />
+                CON LAS FLOTAS
               </h2>
 
               <p class="party__description">
-              Organiza una gran fiesta de Halloween y disfruta de la noche de terror más espeluznante con todos tus amigos.
+              No cometas infracciones con las flotas!, ellos forman con una comunidad donde estas infracciones se filtran y no podras volver a rentar un auto.
               </p>
 
               <a href="#" class="button">
-                Empieza la fiesta!!!
+                Siguiente..
               </a>
             </div>
 

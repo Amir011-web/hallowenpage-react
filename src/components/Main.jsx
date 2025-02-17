@@ -10,6 +10,7 @@ import ScrollReveal from "scrollreveal";
 export function Main() {
   return (
     <Container>
+      
       <main class="main">
         <section class="home section" id="home">
           <div class="shape__small"></div>
@@ -17,16 +18,17 @@ export function Main() {
 
           <div class="home__container container grid">
             <div class="home__data">
-              <h1 class="home__title">
-                <span>Halloween</span> Truco o Transferencia!!!
-                <img src={img1} alt="home image" class="home__title-img-1" />
-                <img src={img1} alt="home image" class="home__title-img-2" />
-              </h1>
+            <h1 className="home__title" style={{ fontFamily: "Orbitron, sans-serif" }}>
+  <span>REGISTRO</span> VERIFICACIÓN 
+  <img src={img1} alt="home image" className="home__title-img-1" />
+  <img src={img1} alt="home image" className="home__title-img-2" />
+</h1>
 
-              <p class="home__description">La calle esta dura</p>
+
+              <p class="home__description">Facil y rapido</p>
 
               <a href="#" class="button">
-                Visitar!!!
+                Ver mas
               </a>
             </div>
 
@@ -45,10 +47,12 @@ export function Main() {
 
         <Party />
       </main>
+      
     </Container>
   );
 }
 const Container = styled.div`
+
   .home {
     position: relative;
 
@@ -67,7 +71,7 @@ const Container = styled.div`
 
       & span {
         display: block;
-        font-family: var(--second-font);
+        font-family: 'Orbitron', sans-serif;
         font-weight: initial;
         color: var(--first-color);
       }

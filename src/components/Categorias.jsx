@@ -13,8 +13,8 @@ export function Categorias() {
         <div class="shape__small"></div>
 
         <h2 class="section__title">
-        Elige tu <br />
-        categoría espeluznante
+        SUBE <br />
+        TUS DOCUMENTOS
         </h2>
 
         <div class="category__container container grid">

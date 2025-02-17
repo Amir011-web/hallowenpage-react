@@ -4,6 +4,8 @@ import img2 from "../assets/img/pngwing.com (50).png";
 import img3 from "../assets/img/pngwing.com (57).png";
 import img4 from "../assets/img/pngwing.com (59).png";
 import img5 from "../assets/img/pngwing.com (50).png";
+import img6 from "../assets/img/pngwing.com (50).png";
+
 import { ItemsCategorias } from "../components/ItemsCategorias";
 import { datacategorias } from "../data/DataEstatica";
 export function Categorias() {

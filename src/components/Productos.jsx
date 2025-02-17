@@ -1,30 +1,30 @@
 import styled from "styled-components";
-import { dataProductos } from "../data/DataEstatica"; // 🔹 Importamos la lista de productos
+import { dataProductos } from "../data/DataEstatica";
 import { ItemsProductos } from "../components/ItemsProductos";
-
 export function Productos() {
   return (
     <Container>
-      <section className="items section" id="items">
-        <div className="shape__big"></div>
+      <section class="items section" id="items">
+        <div class="shape__big"></div>
 
-        <h2 className="section__title">
-          Selecciona tu <br />
-          artículo perdido
+        <h2 class="section__title">
+        Selecciona tu <br />
+        artículo perdido
         </h2>
 
         <div className="items__container container grid">
-          {/* 🔹 Usamos dataProductos en lugar de productos */}
-          {dataProductos.map((item, index) => (
-            <ItemsProductos key={index} item={{ ...item, id: index + 1 }} />
-          ))}
-        </div>
+  {dataProductos.map((item, index) => {
+    // 🔹 Si `customImg` existe, usamos esa imagen; si no, usamos la original
+    const newItem = { ...item, img: item.customImg || item.img };
+
+    return <ItemsProductos key={index} item={newItem} />;
+  })}
+</div>
+
       </section>
     </Container>
   );
 }
-
-// 🔹 Estilos (sin cambios)
 const Container = styled.div`
   .items {
     position: relative;
@@ -90,3 +90,5 @@ const Container = styled.div`
     }
   }
 `;
+
+

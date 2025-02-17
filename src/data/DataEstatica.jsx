@@ -25,50 +25,51 @@ export const datacategorias = [
 ];
 export const dataProductos = [
   {
-    id: 14, // 🔹 Agregamos un ID único
+    id: 1, // ❌ Este no debe cambiar
     img: img1,
-    customImg: "/assets/img/nueva-imagen14.png", // 🔹 Nueva imagen para ID 14
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
   {
-    id: 17, // 🔹 Agregamos un ID único
+    id: 2, // ❌ Este tampoco debe cambiar
     img: img2,
-    customImg: "/assets/img/nueva-imagen17.png", // 🔹 Nueva imagen para ID 17
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
   {
-    id: 18,
+    id: 14, // ✅ CAMBIADO: Este es el tercero y se le asigna `id: 14`
     img: img3,
+    customImg: "src/assets/img/nueva-imagen14.png", // ✅ Nueva imagen para este producto
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
   {
-    id: 19,
+    id: 4, // ❌ Este no cambia
     img: img4,
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
   {
-    id: 20,
+    id: 5, // ❌ Este tampoco cambia
     img: img5,
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
   {
-    id: 21,
+    id: 17, // ✅ CAMBIADO: Este es el sexto y se le asigna `id: 17`
     img: img3,
+    customImg: "src/assets/img/nueva-imagen17.png", // ✅ Nueva imagen para este producto
     title: "Pumpkins",
     precio: "$9.99",
     bgcolor: "rgba(152, 23, 238,0.5)",
   },
 ];
+
 
 
 

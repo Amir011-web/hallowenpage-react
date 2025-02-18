@@ -7,6 +7,7 @@ import img6 from "../assets/img/category-1.png";
 import img7 from "../assets/img/category-2.png";
 import img8 from "../assets/img/category-3.png";
 import img9 from "../assets/img/pngwing.com (74).png";
+
 export const datacategorias = [
   {
     img: img6,

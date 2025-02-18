@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img1 from "../assets/img/pngwing.com (61).png";
+import img11 from "../assets/img/pngwing.com (80).png";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { useState, useLayoutEffect } from "react";
@@ -26,7 +26,7 @@ export function Header() {
       >
         <nav class="nav container">
           <a href="#" class="nav__logo">
-            <img src={img1} alt="logo image" />
+            <img src={img11} alt="logo image" />
             RENTA✦SIO
           </a>
 
@@ -65,7 +65,7 @@ export function Header() {
               <MdClose />
             </div>
 
-            <img src={img1} alt="nav image" class="nav__img" />
+            <img src={img11} alt="nav image" class="nav__img" />
           </div>
 
           <div

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import img1 from "../assets/img/pngwing.com (61).png";
 import img2 from "../assets/img/pngwing.com (53).png";
-import img3 from "../assets/img/pngwing.com (59).png";
+import img10 from "../assets/img/pngwing.com (77).png";
 import {BiLogoFacebook} from "react-icons/bi"
 import {BsInstagram} from "react-icons/bs"
 import {TiSocialTwitter} from "react-icons/ti"
@@ -15,8 +15,9 @@ export function Footer() {
         <div class="footer__container container grid">
           <div>
             <a href="#" class="footer__logo">
+          
               <img src={img1} alt="logo image" />
-              Halloween
+              RENTA✦SIO
             </a>
 
             <p class="footer__description">
@@ -125,7 +126,7 @@ export function Footer() {
           </div>
 
           <img src={img2} alt="footer image" class="footer__tree-1" />
-          <img src={img3} alt="footer image" class="footer__tree-2" />
+          <img src={img10} alt="footer image" class="footer__tree-2" />
         </div>
 
         <span class="footer__copy">&#169; Halloween Page</span>

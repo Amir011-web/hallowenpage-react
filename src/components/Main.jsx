@@ -67,7 +67,7 @@ const Container = styled.div`
       font-size: var(--biggest-font-size);
       line-height: 140%;
       width: max-content;
-      margin: 0 auto 0.5rem;
+      margin: 0 auto 1rem;
 
       & span {
         display: block;

@@ -63,7 +63,7 @@ const Container = styled.div`
   font-weight: var(--font-semi-bold);
   color: var(--first-color);
   margin-bottom: 2.5rem;
-  margin-top: 6rem; /* ✅ Ahora es válido */
+  margin-top: 6.5rem; /* ✅ Ahora es válido */
 }
     &__description {
       font-size: var(--small-font-size);

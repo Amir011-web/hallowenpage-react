@@ -18,7 +18,7 @@ export function About() {
               </p>
 
               <a href="#" class="button">
-                Saber más!!!
+                Siguiente..
               </a>
             </div>
 

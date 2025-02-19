@@ -11,7 +11,7 @@ export function Party() {
                 CON LAS FLOTAS
               </h2>
 
-              <p class="party__description">
+              <p class="party__description" style={{ color: "#ffffff" }}>
               No cometas infracciones con las flotas!, ellos forman con una comunidad donde estas infracciones se filtran y no podras volver a rentar un auto.
               </p>
 

@@ -13,9 +13,10 @@ export function About() {
 
               </h2>
 
-              <p class="about__description">
-              Algunas empresas solicitan por precaución mas documentos, nuestro trabajo es garantizar seguridad a la flota y al chofer formando una confianza mutua.
-              </p>
+              <p className="about__description" style={{ color: "#ffffff" }}>
+  Algunas empresas solicitan por precaución más documentos, nuestro trabajo es garantizar seguridad a la flota y al chofer formando una confianza mutua.
+</p>
+
 
               <a href="#" class="button">
                 Siguiente..

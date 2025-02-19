@@ -8,8 +8,8 @@ export function Productos() {
         <div class="shape__big"></div>
 
         <h2 class="section__title">
-        Selecciona tu <br />
-        artículo perdido
+        DOCUMENTOS <br />
+        SOLICITADOS
         </h2>
 
         <div className="items__container container grid">

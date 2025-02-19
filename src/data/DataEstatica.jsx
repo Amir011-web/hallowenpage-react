@@ -30,51 +30,50 @@ export const datacategorias = [
 ];
 export const dataProductos = [
   {
-    id: 1, // ❌ Este no debe cambiar
+    id: 1,
     img: img1,
-    title: "Pumpkins",
-    precio: "$9.99",
+    title: "VIDA Y RESIDENCIA",
     bgcolor: "rgba(152, 23, 238,0.5)",
+    textColor: "#9817EE",
   },
   {
-    id: 2, // ❌ Este tampoco debe cambiar
+    id: 2,
     img: img9,
-    title: "Pumpkins",
-    precio: "$9.99",
+    title: "REFERENCIAS PERSONALES",
     bgcolor: "rgba(152, 23, 238,0.5)",
+    textColor: "#9817EE",
   },
   {
-    id: 14, // ✅ CAMBIADO: Este es el tercero y se le asigna `id: 14`
+    id: 14,
     img: img3,
-    customImg: "src/assets/img/nueva-imagen14.png", // ✅ Nueva imagen para este producto
-    title: "Pumpkins",
-    precio: "$9.99",
+    customImg: "src/assets/img/nueva-imagen14.png",
+    title: "COMPROBANTE DE SERVICIOS (AGUA, LUZ)",
     bgcolor: "rgba(152, 23, 238,0.5)",
+    textColor: "#9817EE",
   },
   {
-    id: 4, // ❌ Este no cambia
+    id: 4,
     img: img4,
-    title: "Pumpkins",
-    precio: "$9.99",
+    title: "FOTO DE CASA",
     bgcolor: "rgba(152, 23, 238,0.5)",
+    textColor: "#9817EE",
   },
   {
-    id: 5, // ❌ Este tampoco cambia
+    id: 5,
     img: img5,
-    title: "Pumpkins",
-    precio: "$9.99",
+    title: "MONTO DE EFECTIVO DISPONIBLE (MIN 450)",
     bgcolor: "rgba(152, 23, 238,0.5)",
+    textColor: "#9817EE",
   },
   {
-    id: 17, // ✅ CAMBIADO: Este es el sexto y se le asigna `id: 17`
+    id: 17,
     img: img3,
-    customImg: "src/assets/img/nueva-imagen17.png", // ✅ Nueva imagen para este producto
-    title: "Pumpkins",
-    precio: "$9.99",
+    customImg: "src/assets/img/nueva-imagen17.png",
+    title: "UBICACIÓN (GOOGLE MAPS)",
     bgcolor: "rgba(152, 23, 238,0.5)",
+    textColor: "#9817EE",
   },
 ];
-
 
 
 

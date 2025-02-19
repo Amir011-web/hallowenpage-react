@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img1 from "../assets/img/pngwing.com (61).png";
+import img12 from "../assets/img/pngwing.com (90).png";
 import img2 from "../assets/img/pngwing.com (53).png";
 import img10 from "../assets/img/pngwing.com (77).png";
 import {BiLogoFacebook} from "react-icons/bi"
@@ -16,20 +16,21 @@ export function Footer() {
           <div>
             <a href="#" class="footer__logo">
           
-              <img src={img1} alt="logo image" />
+              <img src={img12} alt="logo image" />
               RENTA✦SIO
             </a>
 
-            <p class="footer__description">
-              Disfruta de la
+            <p class="footer__description"  style={{ color: "#ffffff" }}>
+              Completa la
               <br />
-              noche más espeluznante de tu vida.
+              sección de registros
             </p>
           </div>
 
-          <div class="footer__content">
+          <div className="footer__content" style={{ color: "hsl(276, 86%, 51%)" }}>
+
             <div>
-              <h3 class="footer__title">Sobre nosotros</h3>
+              <h3 class="footer__title">Sobre nosotros</h3> 
 
               <ul class="footer__links">
                 <li>
@@ -129,7 +130,7 @@ export function Footer() {
           <img src={img10} alt="footer image" class="footer__tree-2" />
         </div>
 
-        <span class="footer__copy">&#169; Halloween Page</span>
+        <span class="footer__copy">&#169;RENTA✦SIO</span>
       </footer>
     </Container>
   );
